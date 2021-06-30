@@ -1,0 +1,10 @@
+Input count of lines:
+Input count of columns:
+
+Input [0][0] element:  
+Input [0][1] element:
+Input [0][2] element:
+Input [1][0] element:
+Input [1][1] element:
+Input [1][2] element:
+The most recent number is 1

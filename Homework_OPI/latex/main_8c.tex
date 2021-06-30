@@ -1,0 +1,145 @@
+\hypertarget{main_8c}{}\section{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8c_af486802fb64c49a4a03082df510f19ae}{Error\+\_\+incorrect\+\_\+input}}~-\/1
+\item 
+\#define \mbox{\hyperlink{main_8c_a81fd409184144597b29ce29141a4379d}{Error\+\_\+incorrect\+\_\+element}}~-\/2
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_a4f570c331172eef27b013c58846060c5}{input}} (int a\mbox{[}$\,$\mbox{]}\mbox{[}10\mbox{]}, int n, int m)
+\begin{DoxyCompactList}\small\item\em Пользователь вводит по одному элементу матрицы. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_ae6578f430202de7cb15758668c85bbf2}{output}} (int a\mbox{[}$\,$\mbox{]}\mbox{[}10\mbox{]}, int n, int m)
+\begin{DoxyCompactList}\small\item\em Программа выводит исходную матрицу. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a2ad3bfc5926a5787431c79a3e8385a35}{calculate}} (int a\mbox{[}$\,$\mbox{]}\mbox{[}10\mbox{]}, int n, int m, int mass\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Данная функция берет по одному числу из матрицы и увеличивает количество встреч в массиве частотнике всех цифр в этом числе. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_abc706a60beadaff97265a931f4733032}{max}} (int mass \mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Данная функция определяет максимальный элемент массива. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em main программы.~\newline
+ Здесь вводится размерность матрицы и выводится ответ. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{main_8c_a81fd409184144597b29ce29141a4379d}\label{main_8c_a81fd409184144597b29ce29141a4379d}} 
+\index{main.c@{main.c}!Error\_incorrect\_element@{Error\_incorrect\_element}}
+\index{Error\_incorrect\_element@{Error\_incorrect\_element}!main.c@{main.c}}
+\subsubsection{\texorpdfstring{Error\_incorrect\_element}{Error\_incorrect\_element}}
+{\footnotesize\ttfamily \#define Error\+\_\+incorrect\+\_\+element~-\/2}
+
+\mbox{\Hypertarget{main_8c_af486802fb64c49a4a03082df510f19ae}\label{main_8c_af486802fb64c49a4a03082df510f19ae}} 
+\index{main.c@{main.c}!Error\_incorrect\_input@{Error\_incorrect\_input}}
+\index{Error\_incorrect\_input@{Error\_incorrect\_input}!main.c@{main.c}}
+\subsubsection{\texorpdfstring{Error\_incorrect\_input}{Error\_incorrect\_input}}
+{\footnotesize\ttfamily \#define Error\+\_\+incorrect\+\_\+input~-\/1}
+
+\begin{DoxyAuthor}{Author}
+Блохин Дмитрий ИУ 7 -\/ 22 Б 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_a2ad3bfc5926a5787431c79a3e8385a35}\label{main_8c_a2ad3bfc5926a5787431c79a3e8385a35}} 
+\index{main.c@{main.c}!calculate@{calculate}}
+\index{calculate@{calculate}!main.c@{main.c}}
+\subsubsection{\texorpdfstring{calculate()}{calculate()}}
+{\footnotesize\ttfamily void calculate (\begin{DoxyParamCaption}\item[{int}]{a\mbox{[}$\,$\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{n,  }\item[{int}]{m,  }\item[{int}]{mass\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Данная функция берет по одному числу из матрицы и увеличивает количество встреч в массиве частотнике всех цифр в этом числе. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ матрица \\
+\hline
+{\em n} & -\/ количество строк \\
+\hline
+{\em m} & -\/ количество столбцов \\
+\hline
+{\em mass} & -\/ массив частотник \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a4f570c331172eef27b013c58846060c5}\label{main_8c_a4f570c331172eef27b013c58846060c5}} 
+\index{main.c@{main.c}!input@{input}}
+\index{input@{input}!main.c@{main.c}}
+\subsubsection{\texorpdfstring{input()}{input()}}
+{\footnotesize\ttfamily int input (\begin{DoxyParamCaption}\item[{int}]{a\mbox{[}$\,$\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{n,  }\item[{int}]{m }\end{DoxyParamCaption})}
+
+
+
+Пользователь вводит по одному элементу матрицы. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ матрица \\
+\hline
+{\em n} & -\/ количество строк \\
+\hline
+{\em m} & -\/ количество столбцов \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 or -\/2 (0 -\/ функция была выполнена корректно, а -\/2 -\/ нет) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+main программы.~\newline
+ Здесь вводится размерность матрицы и выводится ответ. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_abc706a60beadaff97265a931f4733032}\label{main_8c_abc706a60beadaff97265a931f4733032}} 
+\index{main.c@{main.c}!max@{max}}
+\index{max@{max}!main.c@{main.c}}
+\subsubsection{\texorpdfstring{max()}{max()}}
+{\footnotesize\ttfamily int max (\begin{DoxyParamCaption}\item[{int}]{mass\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Данная функция определяет максимальный элемент массива. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass} & -\/ массив \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+max -\/ максимальный элемент матрицы 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ae6578f430202de7cb15758668c85bbf2}\label{main_8c_ae6578f430202de7cb15758668c85bbf2}} 
+\index{main.c@{main.c}!output@{output}}
+\index{output@{output}!main.c@{main.c}}
+\subsubsection{\texorpdfstring{output()}{output()}}
+{\footnotesize\ttfamily void output (\begin{DoxyParamCaption}\item[{int}]{a\mbox{[}$\,$\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{n,  }\item[{int}]{m }\end{DoxyParamCaption})}
+
+
+
+Программа выводит исходную матрицу. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ матрциа \\
+\hline
+{\em n} & -\/ количество строк \\
+\hline
+{\em m} & -\/ количество столбцов \\
+\hline
+\end{DoxyParams}

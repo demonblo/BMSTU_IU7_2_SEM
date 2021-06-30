@@ -1,0 +1,8 @@
+Input count of lines:
+Input count of columns:
+
+Input [0][0] element:  
+Input [0][1] element:
+Input [0][2] element:Incorrect input of elemets!
+
+
